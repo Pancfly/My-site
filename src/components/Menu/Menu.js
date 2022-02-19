@@ -9,10 +9,6 @@ function Menu({ currentLang, switchLang }) {
   }
 
   function handleLangChange(lang) {
-    if(!lang) {
-      console.log("Not valid data")
-      return;
-    }
     if(lang === "ru") {
       switchLang("ru")
     }
@@ -27,6 +23,7 @@ function Menu({ currentLang, switchLang }) {
     
       <Sidebar
         isMenuOpen={isMenuOpen}
+        toggleMenu={toggleMenu}
         currentLang={currentLang}
         handleLangChange={handleLangChange}
       />

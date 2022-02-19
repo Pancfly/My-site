@@ -10,6 +10,11 @@ export const translation = {
       portfolio: "Portfolio",
       contact: "Contact",
     },
+    social: {
+      vk: "VK",
+      fb: "Facebook",
+      gh: "Github",
+    },
     title: "My Portfolio",
     greete: "Hello",
     me: ", I'm",
@@ -28,6 +33,11 @@ export const translation = {
       skills: "Навыки",
       portfolio: "Портфолио",
       contact: "Контакты",
+    },
+    social: {
+      vk: "Вконтакте",
+      fb: "Фейсбук",
+      gh: "Гитхаб",
     },
     title: "Мое портфолио",
     greete: "Привет",

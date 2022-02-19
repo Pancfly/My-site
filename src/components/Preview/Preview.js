@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Socials from "../Socials/Socials";
 import PreviewImage from "../../images/portfolio.jpg";
 import { LanguageContext } from "../../context/languageContext";
 
@@ -7,7 +8,7 @@ function Preview() {
   const translation = React.useContext(LanguageContext);
 
   return (
-    <section className="preview">
+    <section className="preview" id="home">
       <div className="preview__imgSidebar">
         <img src={PreviewImage} alt="Portfolio" className="preview__img"/>
       </div>
@@ -20,6 +21,7 @@ function Preview() {
           <p className="preview__about">{ translation.about }</p>
           <Link to="/" className="preview__btn"> { translation.menubar.about }</Link>
         </div>
+        <Socials />
       </div>
     </section>
   );
