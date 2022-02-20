@@ -21,7 +21,7 @@ function Contact() {
         </div>
         <div className="contact__row">
           <div className="contact__col">
-            <input type="text" name="" placeholder={ translation.form.email } className="contact__input"/>
+            <input type="email" name="" pattern="^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" placeholder={ translation.form.email } className="contact__input"/>
           </div>
           <div className="contact__col">
             <input type="text" name="" placeholder={ translation.form.mobile } className="contact__input"/>

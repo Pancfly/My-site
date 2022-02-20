@@ -40,6 +40,7 @@ export const translation = {
     work: "Recent Work",
     portfolioInfo: "Projects made by me at the moment",
     contactInfo: "To contact me, you can fill out the form below",
+    copyright: "©"
   },
   ru: {
     menubar: {
@@ -79,5 +80,6 @@ export const translation = {
     work: "Недавние работы",
     portfolioInfo: "Проекты сделанный мной на текущий момент",
     contactInfo: "Для связи со мной, вы можете заполнить форму ниже",
+    copyright: "©"
   }
 }

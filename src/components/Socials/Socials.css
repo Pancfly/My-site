@@ -23,3 +23,9 @@
   transform: scale(0.8);
   opacity: 1;
 }
+
+@media (max-width: 991px) {
+  .socials {
+    left: 40px;
+  }
+}

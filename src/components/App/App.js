@@ -4,10 +4,11 @@ import Preview from "../Preview/Preview";
 import Skills from "../Skills/Skills";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 import { LanguageContext, translation } from "../../context/languageContext";
 
 function App() {
-  const [lang, setLang] = React.useState("en");
+  const [lang, setLang] = React.useState("ru");
   return (
     <LanguageContext.Provider value={ translation[lang] }>
       <div className="page">
@@ -19,6 +20,7 @@ function App() {
         <Skills />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     </LanguageContext.Provider>
   );

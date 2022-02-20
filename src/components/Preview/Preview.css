@@ -82,3 +82,28 @@
   font-weight: 500;
   letter-spacing: 2px;
 }
+
+@media (max-width: 1152px) {
+  .preview__imgSidebar {
+    width: 500px;
+  }
+
+  .preview__content-box {
+    width: calc(100% - 500px);
+  }
+}
+
+@media (max-width: 991px) {
+  .preview__imgSidebar {
+    display: none;
+  }
+
+  .preview__content-box {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .preview__title {
+    left: 40px;
+  }
+}

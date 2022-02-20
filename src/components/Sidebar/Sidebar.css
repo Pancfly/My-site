@@ -6,7 +6,7 @@
   align-items: center;
   top: 0;
   right: -100%;
-  width: calc(100% - 500px);
+  width: calc(100% - 700px);
   height: 100%;
   padding: 40px;
   transition: 0.5s;
@@ -56,4 +56,10 @@
 
 .sidebar__button:hover {
   color: #00bcd4;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    width: 100%;
+  }
 }

@@ -1,6 +1,7 @@
 .skills {
   padding: 60px 0;
   background: #000;
+  min-height: 100vh;
 }
 
 .skills__info {
@@ -60,4 +61,10 @@
 .skills__img {
   width: 250px;
   object-fit: cover;
+}
+
+@media (max-width: 485px) {
+  .skills__img {
+    width: 180px;
+  }
 }
