@@ -68,6 +68,12 @@
   resize: none;
 }
 
+.contact__input-error {
+  font-size: 10px;
+  line-height: 1.2;
+  color: #ee3465;
+}
+
 .contact__text-box {
   width: 100%;
   margin: 10px;
@@ -88,6 +94,11 @@
   letter-spacing: 2px;
   cursor: pointer;
   max-width: 200px;
+}
+
+.contact__button_disabled {
+  background-color: #9c929286;
+  cursor: not-allowed;
 }
 
 @media (max-width: 991px) {
