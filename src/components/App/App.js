@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "../Menu/Menu";
 import Preview from "../Preview/Preview";
 import Skills from "../Skills/Skills";
+import Portfolio from "../Portfolio/Portfolio";
 import { LanguageContext, translation } from "../../context/languageContext";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           switchLang={setLang}
         />
         <Skills />
+        <Portfolio />
       </div>
     </LanguageContext.Provider>
   );
