@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Socials from "../Socials/Socials";
 import PreviewImage from "../../images/portfolio.jpg";
 import { LanguageContext } from "../../context/languageContext";
@@ -19,7 +18,7 @@ function Preview() {
           <h2 className="preview__subtitle">{ translation.name }</h2>
           <h4 className="preview__profession">{ translation.profession }</h4>
           <p className="preview__about">{ translation.about }</p>
-          <Link to="/" className="preview__btn"> { translation.menubar.about }</Link>
+          <a href="#contact" className="preview__btn"> { translation.menubar.contact }</a>
         </div>
         <Socials />
       </div>

@@ -22,6 +22,14 @@ export const translation = {
       russianTravel: "Project Russian Travel",
       listDesign: "Design List",
     },
+    form: {
+      firstName: "First Name",
+      lastName: "Last Name",
+      email: "Email",
+      mobile: "Mobile No",
+      message: "Message",
+      send: "Send",
+    },
     title: "My Portfolio",
     greete: "Hello",
     me: ", I'm",
@@ -31,6 +39,7 @@ export const translation = {
     skillsInfo: "I mastered technologies and programs",
     work: "Recent Work",
     portfolioInfo: "Projects made by me at the moment",
+    contactInfo: "To contact me, you can fill out the form below",
   },
   ru: {
     menubar: {
@@ -52,6 +61,14 @@ export const translation = {
       russianTravel: "Проект Russian Travel",
       listDesign: "Дизайнерский вариант списка",
     },
+    form: {
+      firstName: "Имя",
+      lastName: "Фамилия",
+      email: "Электронный адрес",
+      mobile: "Номер телефона",
+      message: "Сообщение",
+      send: "Отправить",
+    },
     title: "Мое портфолио",
     greete: "Привет",
     me: ", меня зовут",
@@ -61,5 +78,6 @@ export const translation = {
     skillsInfo: "Я освоил технологии и программы",
     work: "Недавние работы",
     portfolioInfo: "Проекты сделанный мной на текущий момент",
+    contactInfo: "Для связи со мной, вы можете заполнить форму ниже",
   }
 }
