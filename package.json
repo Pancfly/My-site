@@ -2,7 +2,7 @@
   "name": "my-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Pancfly/My-site",
+  "homepage": "https://pancfly.github.io/My-site/",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@testing-library/jest-dom": "^5.15.0",
