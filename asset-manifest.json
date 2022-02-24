@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/My-site/static/css/main.0db6cb77.chunk.css",
-    "main.js": "/My-site/static/js/main.e7e48ef0.chunk.js",
-    "main.js.map": "/My-site/static/js/main.e7e48ef0.chunk.js.map",
+    "main.css": "/My-site/static/css/main.30d5cc87.chunk.css",
+    "main.js": "/My-site/static/js/main.d2d6b589.chunk.js",
+    "main.js.map": "/My-site/static/js/main.d2d6b589.chunk.js.map",
     "runtime-main.js": "/My-site/static/js/runtime-main.2c08b21d.js",
     "runtime-main.js.map": "/My-site/static/js/runtime-main.2c08b21d.js.map",
     "static/js/2.358b3191.chunk.js": "/My-site/static/js/2.358b3191.chunk.js",
     "static/js/2.358b3191.chunk.js.map": "/My-site/static/js/2.358b3191.chunk.js.map",
     "index.html": "/My-site/index.html",
-    "static/css/main.0db6cb77.chunk.css.map": "/My-site/static/css/main.0db6cb77.chunk.css.map",
+    "static/css/main.30d5cc87.chunk.css.map": "/My-site/static/css/main.30d5cc87.chunk.css.map",
     "static/js/2.358b3191.chunk.js.LICENSE.txt": "/My-site/static/js/2.358b3191.chunk.js.LICENSE.txt",
     "static/media/clerksy.c7801cba.png": "/My-site/static/media/clerksy.c7801cba.png",
     "static/media/list-design.79a6ea21.png": "/My-site/static/media/list-design.79a6ea21.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.2c08b21d.js",
     "static/js/2.358b3191.chunk.js",
-    "static/css/main.0db6cb77.chunk.css",
-    "static/js/main.e7e48ef0.chunk.js"
+    "static/css/main.30d5cc87.chunk.css",
+    "static/js/main.d2d6b589.chunk.js"
   ]
 }
