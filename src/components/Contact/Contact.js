@@ -15,7 +15,6 @@ function Contact() {
   React.useEffect(() => {
     resetForm()
   }, [resetForm]);
-  console.log(state, handleSubmit);
 
   return (
     <>
@@ -27,13 +26,13 @@ function Contact() {
       <form className="contact__form" noValidate onSubmit={handleSubmit}>
         <div className="contact__row">
           <div className="contact__col">
-            <input type="text" name="firstName" value={values.firstName || ""} onChange={useFormValidation.handleChange} pattern="^[a-zA-Zа-яА-ЯЁё\\s\\-]+$" placeholder={ translation.form.firstName } className="contact__input" minLength="2" maxLenght="30" require/>
+            <input type="text" name="firstName" value={values.firstName || ""} onChange={useFormValidation.handleChange} pattern="^[a-zA-Zа-яА-ЯЁё\\s\\-]+$" placeholder={ translation.form.firstName } className="contact__input" minLength="2" maxLenght="30" required/>
             <span className="contact__input-error">
               {errors.firstName}
             </span>
           </div>
           <div className="contact__col">
-            <input type="text" name="lastName" value={values.lastName || ""} onChange={useFormValidation.handleChange} pattern="^[a-zA-Zа-яА-ЯЁё\\s\\-]+$" placeholder={ translation.form.lastName } className="contact__input" minLength="2" maxLenght="30" require/>
+            <input type="text" name="lastName" value={values.lastName || ""} onChange={useFormValidation.handleChange} pattern="^[a-zA-Zа-яА-ЯЁё\\s\\-]+$" placeholder={ translation.form.lastName } className="contact__input" minLength="2" maxLenght="30" required/>
             <span className="contact__input-error">
               {errors.lastName}
             </span>
@@ -67,7 +66,7 @@ function Contact() {
         </div>
         <div className="contact__row">
           <div className="contact__text-box">
-            <button type="submit" className={`contact__button ${!isFormValid && " contact__button_disabled"}`} disabled={state.submitting} onClick={() => {setIsSubmit(true); setTimeout(() => resetForm(), 2000)}}>
+            <button type="submit" className={`contact__button ${!isFormValid && " contact__button_disabled"}`} disabled={!isFormValid} onClick={() => {setIsSubmit(true); setTimeout(() => resetForm(), 2000)}}>
               { translation.form.send }
             </button>
           </div>
